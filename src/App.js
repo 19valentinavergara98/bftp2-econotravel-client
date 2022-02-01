@@ -1,5 +1,6 @@
 import './App.css';
 import {useEffect, useState} from "react";
+import tibidabo-barcelona from "./static/assets/tibidabo-barcelona.jpeg";
 
 function App() {
 
