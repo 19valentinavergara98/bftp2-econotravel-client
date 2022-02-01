@@ -31,6 +31,9 @@ function App() {
 
     return (
         <div className="App">
+            <div className="paginaInicio">
+                <button>DESCUBRELAS AQUÍ</button>
+            </div>
             <div className="newExperienceForm">
                 <input onChange={e => setNewExperience(e.target.value)} type="text"/>
                 <button onClick={() => addExperience(newExperience)}>Add experience</button>
