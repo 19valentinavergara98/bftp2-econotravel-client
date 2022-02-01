@@ -32,6 +32,14 @@ function App() {
     return (
         <div className="App">
             <div className="paginaInicio">
+                <div clasName="NavBar">
+                    <ul>
+                        <img></img>
+                        <li>QUIÉNES SOMOS</li>
+                        <li>EXPERIENCIAS</li>
+                        <li>CONTACTO</li>
+                    </ul>
+                </div>
                 <button>DESCUBRELAS AQUÍ</button>
             </div>
             <div className="newExperienceForm">
