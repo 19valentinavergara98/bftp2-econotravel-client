@@ -1,6 +1,6 @@
 import './App.css';
 import {useEffect, useState} from "react";
-import tibidabo-barcelona from "./static/assets/tibidabo-barcelona.jpeg";
+import tibidabo from "./assets/tibidabo.jpeg";
 
 function App() {
 
@@ -53,6 +53,13 @@ function App() {
             </ul>
         </div>
     );
+    const App = _ =>{
+        return (
+            <div>
+                <img src="./assets/tibidabo.jpeg" alt=""/>
+            </div>
+        )
+    }
 }
 
 export default App;
