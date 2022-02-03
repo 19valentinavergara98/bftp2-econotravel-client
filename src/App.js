@@ -1,6 +1,6 @@
 import './App.css';
 import {useEffect, useState} from "react";
-import ExperienceList from "./components/ExperienceList";
+
 
 function App() {
 
@@ -35,7 +35,7 @@ function App() {
             <div className="paginaInicio">
                 <div clasName="NavBar">
                     <ul>
-                        <img></img>
+                        <li>logo</li>
                         <li>QUIÉNES SOMOS</li>
                         <li>EXPERIENCIAS</li>
                         <li>CONTACTO</li>
@@ -43,8 +43,11 @@ function App() {
                 </div>
             </div>
                 <div className="button-inicio">
-                    <button onclick="window.location.href=./components/ExperienceList">DESCùBRELAS AQUÍ</button>
+                    <h1>¡ VIVE UNA EXPERIENCIA INOLVIDABLE !</h1>
+                    <button>DESCÚBRELAS AQUÍ</button>
                 </div>
+
+
 
             <div className="newExperienceForm">
                 <input onChange={e => setNewExperience(e.target.value)} type="text"/>
@@ -52,7 +55,6 @@ function App() {
             </div>
             <div className="experiences" >
 
-                <ExperienceList />
 
             </div>
 
