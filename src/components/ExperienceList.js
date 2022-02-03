@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
-import Experience from './Experience'
+import ExperienceForm from "./components/ExperienceForm";
+import Experience from "./components/Experience";
 
 
 function Experience() {
@@ -37,3 +38,5 @@ function Experience() {
         </div>
     );
 }
+
+export default ExperienceList;

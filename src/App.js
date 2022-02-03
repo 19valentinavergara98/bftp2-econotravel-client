@@ -1,5 +1,6 @@
 import './App.css';
 import {useEffect, useState} from "react";
+import ExperienceList from "./components/ExperienceList";
 
 function App() {
 
@@ -40,11 +41,16 @@ function App() {
                         <li>CONTACTO</li>
                     </ul>
                 </div>
-                <button>DESCUBRELAS AQUÍ</button>
-            </div>
+                <button onclick="window.location.href=./components/Experience">DESCùBRELAS AQUÍ</button>
+                <div>
             <div className="newExperienceForm">
                 <input onChange={e => setNewExperience(e.target.value)} type="text"/>
                 <button onClick={() => addExperience(newExperience)}>Add experience</button>
+            </div>
+            <div className="experiences" >
+
+                <Experience />
+
             </div>
 
             <ul>

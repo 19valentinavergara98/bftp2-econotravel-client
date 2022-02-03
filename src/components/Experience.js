@@ -37,3 +37,4 @@ function Experience({experiences, removeExperience, updateExperience}) {
         </div>
     ));
 }
+export default Experience;

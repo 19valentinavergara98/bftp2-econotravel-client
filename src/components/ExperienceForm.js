@@ -40,4 +40,4 @@ function ExperienceForm(props) {
     )
 }
 
-export default experiences
+export default ExperienceForm;
