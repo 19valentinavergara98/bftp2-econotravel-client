@@ -4,10 +4,10 @@ import Experience from "./components/Experience";
 
 
 function ExperienceList() {
-    const [experiences, setExperiences] = useState([])
+    const [Experiences, setExperiences] = useState([])
 
     const addExperiences = experience => {
-        if (!experience.text || /^\s*$/.test(experience.text)) {
+        if (!experience.text || /^\s*$/.test(experience.text)) {N
             return
         }
 
