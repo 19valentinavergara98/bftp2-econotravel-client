@@ -47,21 +47,37 @@ function App() {
                     <button>DESCÚBRELAS AQUÍ</button>
                 </div>
 
+        <div className="Quienes-somos">
+            <p>ECONOTRAVEL promociona y diseña experiencias y actividades en Cataluña, fomentando un turismo responsable con la economía local, sostenible con el medio ambiente y ayudando a pequeños negocios de proximidad, fundaciones, asociaciones y proyectos locales a posicionarse en el sector turístico.</p>
+            <button>Quiénes somos</button>
+
+        </div>
+
+            <div classExperiencias="Experiencias">
+             <p>Nuestras experiencias han sido cuidadosamente seleccionadas para que puedas contribuir al desarrollo de la economía local y a la conservación del medio ambiente, siguiendo las pautas establecidas en el marco del turismo responsable y sostenible.</p>
+                <p>Tarjetas de cada excursión y fotografía correspondiente</p>
+                <button>Saber más</button>
+            </div>
+
+            <div class="Formulario">
+            <p>Aquí crearemos un formulario para el cliente</p>
+            </div>
 
 
-            <div className="newExperienceForm">
+            {/*<div className="newExperienceForm">
                 <input onChange={e => setNewExperience(e.target.value)} type="text"/>
                 <button onClick={() => addExperience(newExperience)}>Add experience</button>
             </div>
-            <div className="experiences" >
 
-
-            </div>
 
             <ul>
                 {experiences.map(experience => <li>{experience.name}</li>)}
             </ul>
+            */
+
         </div>
+
+
     );
 }
 
