@@ -43,7 +43,7 @@ function App() {
                 </div>
             </div>
                 <div className="button-inicio">
-                    <button onclick="window.location.href=./components/Experience">DESCùBRELAS AQUÍ</button>
+                    <button onclick="window.location.href=./components/ExperienceList">DESCùBRELAS AQUÍ</button>
                 </div>
 
             <div className="newExperienceForm">
@@ -52,7 +52,7 @@ function App() {
             </div>
             <div className="experiences" >
 
-                <Experience />
+                <ExperienceList />
 
             </div>
 
