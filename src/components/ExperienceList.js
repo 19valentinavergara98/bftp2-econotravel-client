@@ -3,7 +3,7 @@ import ExperienceForm from "./components/ExperienceForm";
 import Experience from "./components/Experience";
 
 
-function Experience() {
+function ExperienceList() {
     const [experiences, setExperiences] = useState([])
 
     const addExperiences = experience => {
