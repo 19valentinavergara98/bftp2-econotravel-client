@@ -41,8 +41,11 @@ function App() {
                         <li>CONTACTO</li>
                     </ul>
                 </div>
-                <button onclick="window.location.href=./components/Experience">DESCùBRELAS AQUÍ</button>
-                <div>
+            </div>
+                <div className="button-inicio">
+                    <button onclick="window.location.href=./components/Experience">DESCùBRELAS AQUÍ</button>
+                </div>
+
             <div className="newExperienceForm">
                 <input onChange={e => setNewExperience(e.target.value)} type="text"/>
                 <button onClick={() => addExperience(newExperience)}>Add experience</button>
