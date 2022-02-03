@@ -11,7 +11,7 @@ function ExperienceList() {
             return
         }
 
-        const experiences = [experience, ...experiences]
+        const experiences= [experience, ...experiences]
         setExperiences(newExperiences)
         console.log(newExperiences);
     };
