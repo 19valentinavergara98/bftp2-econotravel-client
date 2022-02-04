@@ -3,6 +3,7 @@ import {useEffect, useState} from "react";
 import Inicio from './components/Inicio.js'
 import QuienesSomos from "./components/QuienesSomos";
 import Experiencias from "./components/Experiencias";
+import Card from "./components/Card";
 
 function App() {
 
@@ -38,11 +39,11 @@ function App() {
             <QuienesSomos />
             <Experiencias />
 
-            <div classExperiencias="Experiencias">
-                <div className="experience-card">
+            <div className="Experiencias">
 
-                    {experiences.map(experience => <p>{experience.name}</p>)}
-                 </div>
+
+                    {experiences.map(experience => <Card experience={experience} />)}
+
                 <div className="newExperienceForm">
                     <input onChange={e => setNewExperience(e.target.value)} type="text"/>
                     <button onClick={() => addExperience(newExperience)}>Add experience</button>
