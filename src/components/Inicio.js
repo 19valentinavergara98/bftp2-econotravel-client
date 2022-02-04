@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from "./Navbar";
-
+import './Inicio.css'
 
 function Inicio(props){
     return(
