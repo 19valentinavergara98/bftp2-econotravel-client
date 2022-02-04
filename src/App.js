@@ -1,6 +1,6 @@
 import './App.css';
 import {useEffect, useState} from "react";
-import Inicio from './components/Inicio.js'
+import Inicio from './components/Inicio';
 import QuienesSomos from "./components/QuienesSomos";
 import Experiencias from "./components/Experiencias";
 import Card from "./components/Card";
