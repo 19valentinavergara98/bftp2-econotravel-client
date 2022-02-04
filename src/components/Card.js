@@ -9,7 +9,7 @@ function Card(props){
                 {props.experience.name}
             </h2>
             <p className="card-price">
-                {props.experience.price}
+                {props.experience.price}€
             </p>
             <p className="card-duration">
                 {props.experience.duration}
