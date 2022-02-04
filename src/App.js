@@ -3,11 +3,11 @@ import {useEffect, useState} from "react";
 import Inicio from './components/Inicio.js'
 import QuienesSomos from "./components/QuienesSomos";
 import Experiencias from "./components/Experiencias";
-<<<<<<< HEAD
+
 import Navbar from "./Navbar";
-=======
+
 import Card from "./components/Card";
->>>>>>> bd49eb5ae22db28067852a2306465bfc9bc3c281
+
 
 function App() {
 
