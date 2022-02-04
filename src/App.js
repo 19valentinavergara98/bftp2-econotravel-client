@@ -3,6 +3,7 @@ import {useEffect, useState} from "react";
 import Inicio from './components/Inicio.js'
 import QuienesSomos from "./components/QuienesSomos";
 import Experiencias from "./components/Experiencias";
+import Navbar from "./Navbar";
 
 function App() {
 
@@ -34,6 +35,7 @@ function App() {
 
     return (
         <div className="App">
+            <Navbar/>
             <Inicio />
             <QuienesSomos />
             <Experiencias />
