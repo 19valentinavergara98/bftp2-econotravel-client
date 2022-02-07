@@ -3,14 +3,15 @@ import './Inicio.css';
 import tibidabo from "./assets/tibidabo.jpeg"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button } from 'react-bootstrap';
-
+import logo from "./assets/logo.png"
 
 function Inicio(props){
     return(
         <div className="inicio-eco">
+
             <div className= "nabvar">
+                <img src={logo} className="imageLogo"></img>
             <ul>
-                <li>logo</li>
                 <li>QUIÉNES SOMOS</li>
                 <li>EXPERIENCIAS</li>
                 <li>CONTACTO</li>
