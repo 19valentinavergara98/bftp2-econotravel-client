@@ -5,6 +5,7 @@ import Inicio from './components/Inicio';
 import QuienesSomos from "./components/QuienesSomos";
 import Experiencias from "./components/Experiencias";
 import Card from "./components/Card";
+import Formulario from "./components/Formulario";
 
 function App() {
 
@@ -38,26 +39,12 @@ function App() {
         <div className="App">
             <Inicio />
             <QuienesSomos />
-            <Experiencias />
+            <Experiencias experiencias={experiences} />
 
-            <div className="Experiencias">
-
-
-                    {experiences.map(experience => <Card experience={experience} />)}
-
-                <div className="newExperienceForm">
-                    <input onChange={e => setNewExperience(e.target.value)} type="text"/>
-                    <button onClick={() => addExperience(newExperience)}>Add experience</button>
-                </div>
-
-
-
-
-                <button>Saber más</button>
-            </div>
 
             <div class="Formulario">
             <p>Aquí crearemos un formulario para el cliente</p>
+                <Formulario name="Javi" otraCosa="hola"/>
             </div>
 
 
