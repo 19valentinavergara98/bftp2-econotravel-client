@@ -1,4 +1,6 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Button } from 'react-bootstrap';
 
 
 function Card(props){
@@ -19,7 +21,7 @@ function Card(props){
             </p>
 
 
-            <button>Saber más</button>
+            <Button variant="success">Saber más</Button>
 
         </div>
     );
