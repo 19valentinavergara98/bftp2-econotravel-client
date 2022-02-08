@@ -43,7 +43,7 @@ function App() {
 
 
             <div class="Formulario">
-            <p>Aquí crearemos un formulario para el cliente</p>
+
                 <Formulario name="Javi" otraCosa="hola"/>
             </div>
 
