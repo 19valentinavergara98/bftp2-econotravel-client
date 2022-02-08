@@ -22,12 +22,19 @@ function App() {
         }
     }, [requiresUpdate])
 
-    const addExperience = (experienceName, experiencePrice, experienceDuration, experienceTag) => {
+    const addExperience = (experienceName, experienceDescription, experiencePrice, experienceDuration, experienceTag, experienceImage) => {
         fetch("http://localhost:8080/api/experiences",
             {
                 method: 'POST',
                 headers: {'Content-Type': 'application/json'},
-                body: JSON.stringify({name: experienceName, price: experiencePrice, duration: experienceDuration, tag: experienceTag})
+                body: JSON.stringify({
+                    name: experienceName,
+                    description: experienceDescription,
+                    price: experiencePrice,
+                    duration: experienceDuration,
+                    tag: experienceTag,
+                    image: experienceImage
+                })
             }
         ).then(_ => setRequiresUpdate(true))
 
@@ -36,18 +43,15 @@ function App() {
 
     return (
         <div className="App">
-            <Inicio />
-            <QuienesSomos />
-            <Experiencias experiencias={experiences} />
+            <Inicio/>
+            <QuienesSomos/>
+            <Experiencias experiencias={experiences}/>
 
 
             <div class="Formulario">
 
                 <Formulario name="Javi" otraCosa="hola"/>
             </div>
-
-
-
 
 
         </div>
