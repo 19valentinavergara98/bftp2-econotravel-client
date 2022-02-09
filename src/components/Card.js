@@ -8,8 +8,11 @@ function Card(props){
 
     return(
         <div className="card-container">
+            <div className="img-container">
+                {props.experience.image}
+            </div>
+
             <div className="card">
-                <img className="card-image" src="https://files.slack.com/files-pri/T02GLB0PY4U-F030WMYV24B/screenshot_2022-01-31_at_12-09-18_econotravel_-_experiencias.png"/>
 
             <h2 className="experience-name">
                 {props.experience.name}
@@ -26,6 +29,7 @@ function Card(props){
 
 
             <Button variant="success">Saber más</Button>
+                <Button variant="success">Edit</Button>
             </div>
         </div>
     );
