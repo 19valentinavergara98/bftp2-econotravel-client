@@ -1,23 +1,25 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Button} from 'react-bootstrap';
+import tibidabo from "./assets/tibidabo.jpeg"
 
 import "./Card.css";
+
 
 
 function Card(props) {
 
     return (
         <div className="card-container">
-            <div className="img-container">
-                {props.experience.image}
-            </div>
 
             <div className="card">
 
                 <h2 className="experience-name">
                     {props.experience.name}
                 </h2>
+                <p className="card-description">
+                    {props.experience.description}
+                </p>
                 <p className="card-price">
                     {props.experience.price}€
                 </p>
@@ -27,6 +29,10 @@ function Card(props) {
                 <p className="card-tag">
                     {props.experience.tag}
                 </p>
+                <div className="img-container">
+                    {props.experience.coverImage}
+                    <img src={tibidabo} className="tibidabo"></img>
+                </div>
                 <div className="action-buttons">
                     <Button variant="success">Saber más</Button>
 

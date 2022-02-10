@@ -22,7 +22,7 @@ function App() {
         }
     }, [requiresUpdate])
 
-    const addExperience = (experienceName, experienceDescription, experiencePrice, experienceDuration, experienceTag, experienceImage) => {
+    const addExperience = (experienceName, experienceDescription, experiencePrice, experienceDuration, experienceTag, experienceCoverImage) => {
         fetch("http://localhost:8080/api/experiences",
             {
                 method: 'POST',
@@ -33,7 +33,7 @@ function App() {
                     price: experiencePrice,
                     duration: experienceDuration,
                     tag: experienceTag,
-                    image: experienceImage
+                    coverImage: experienceCoverImage
                 })
             }
         ).then(_ => setRequiresUpdate(true))
