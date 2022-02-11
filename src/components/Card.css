@@ -124,6 +124,10 @@
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
+.news-card__read-more:hover i {
+    left: 0.5rem;
+    color: yellow;
+}
 
 /*.card1 {
     width: 300px;
