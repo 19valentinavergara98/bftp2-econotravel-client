@@ -15,17 +15,18 @@ function Card(props) {
 
                 <div className="container2">
                     <div className="card1">
-                        <figure class name="card-thumb">
 
-                            <div className="card-img">
-                                {props.experience.coverImage}
-                                <a href="#" className="news-card__card-link"></a>
-                                <img src={tibidabo} className="tibidabo"alt=""></img>
+
+                        <div className="card-img">
+                            {props.experience.coverImage}
+                            <a href="#" className="news-card__card-link"></a>
+                            <img src={tibidabo} className="tibidabo" alt=""></img>
+                            <div className="news-card__text-wrapper">
                                 <h2 className="experience-name">
                                     {props.experience.name}
                                 </h2>
                             </div>
-                        </figure>
+                        </div>
                     </div>
                 </div>
                 <div className="parametros">
