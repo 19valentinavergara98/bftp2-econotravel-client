@@ -1,8 +1,9 @@
 import React from 'react';
 import quienessomos from "./assets/quienessomos.jpg"
 import logo from "./assets/logo.png";
-import "./QuienesSomosInfo.css"
-import {Link} from "react-scroll";
+import "./QuienesSomosInfo.css";
+import {Link} from "react-router-dom";
+
 
 function QuienesSomosInfo(props){
     return(
@@ -12,9 +13,9 @@ function QuienesSomosInfo(props){
                 <img src={logo} className="imageLogo"></img>
                 <ul>
                     <li>
-                        <Link to="quienessomos">QUIÉNES SOMOS </Link>
+                        <Link to="/">QUIÉNES SOMOS </Link>
                     </li>
-                    <li><Link to="experiencias">EXPERIENCIAS</Link></li>
+                    <li><Link to="/">EXPERIENCIAS</Link></li>
                     <li>CONTACTO</li>
                 </ul>
             </div>
