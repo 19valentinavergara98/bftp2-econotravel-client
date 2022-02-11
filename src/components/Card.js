@@ -25,13 +25,13 @@ function Card(props) {
                                 <h2 className="experience-name">
                                     {props.experience.name}
                                 </h2>
-                                <a href="#" className="news-card__read-more">Edit
-                                    <i className="fas fa-long-arrow-alt-right"></i></a>
+                                <div className="news-card__details-wrapper">
+                                    <a href="#" className="news-card__read-more">Edit
+                                        <i className="fas fa-long-arrow-alt-right"></i></a>
 
-                                <a href="#" className="news-card__read-more">Delete
-                                    <i className="fas fa-long-arrow-alt-right"></i></a>
-
-
+                                    <a href="#" className="news-card__read-more">Delete
+                                        <i className="fas fa-long-arrow-alt-right"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
