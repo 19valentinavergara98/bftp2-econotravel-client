@@ -1,38 +1,7 @@
-.container2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-    margin: 20px 0 80px;
-}
-
 .card1 {
     width: 300px;
     margin: 10px;
     background-color: white;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
 
-:hover {}
-
-.experience-name {
-    top: 50%;
-    transform: translateY(-50%);
 }
-
-.tibidabo {
-    transform: translateY(-10px);
-}
-
-.card-thumb {}
-
-::after {
-    top: 0;
-}
-
-
-
-
-
-
-
-
