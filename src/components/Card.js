@@ -19,14 +19,14 @@ function Card(props) {
                             <div className="card-img">
                                 {props.experience.coverImage}
                                 <img src={tibidabo} className="tibidabo"></img>
+                                <h2 className="experience-name">
+                                    {props.experience.name}
+                                </h2>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="parametros">
-                    <h2 className="experience-name">
-                        {props.experience.name}
-                    </h2>
                     <p className="card-description">
                         {props.experience.description}
                     </p>
