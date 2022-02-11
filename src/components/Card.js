@@ -19,7 +19,8 @@ function Card(props) {
 
                             <div className="card-img">
                                 {props.experience.coverImage}
-                                <img src={tibidabo} className="tibidabo"alt="Picture by Kyle Cottrell"></img>
+                                <a href="#" className="news-card__card-link"></a>
+                                <img src={tibidabo} className="tibidabo"alt=""></img>
                                 <h2 className="experience-name">
                                     {props.experience.name}
                                 </h2>
