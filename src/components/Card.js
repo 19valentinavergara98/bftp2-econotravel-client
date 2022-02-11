@@ -33,7 +33,7 @@ function Card(props) {
                 </div>
                 <div className="admin-buttons">
                     <Button variant="secondary">Edit</Button>
-                    <Button variant="danger">Edit</Button>
+                    <Button variant="danger">Delete</Button>
 
                 </div>
 
