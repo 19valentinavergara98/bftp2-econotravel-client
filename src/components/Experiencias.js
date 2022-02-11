@@ -9,7 +9,9 @@ function Experiencias(props) {
                     la economía local y a la conservación del medio ambiente, siguiendo las pautas establecidas en el marco
                     del turismo responsable y sostenible....</p>
                 </div>
+            <div className="experiences-body">
                 {props.experiencias.map(experience => <Card experience={experience}/>)}
+            </div>
         </div>
     );
 }
