@@ -26,7 +26,7 @@ function Inicio(props){
                 <h1>¡ VIVE UNA EXPERIENCIA INOLVIDABLE !</h1>
             </div>
                 <div className="button">
-                    <Button variant="success">DESCÚBRELAS AQUÍ</Button>
+                    <Button variant="success"><Link to="experiencias">DESCÚBRELAS AQUÍ</Link></Button>
                 </div>
 
         </div>
