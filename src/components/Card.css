@@ -1,36 +1,48 @@
 .container2 {
+    margin: 0 auto;
+    max-width: 1200px;
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: center;
-    width: 100%;
-    margin: 20px 0 80px;
+    padding: 0.5rem;
 }
 
 .card1 {
-    width: 300px;
-    margin: 10px;
-    background-color: white;
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
-
-:hover {}
-
-.experience-name {
-    top: 50%;
-    transform: translateY(-50%);
+    border: 0px solid aqua;
+    margin: 0.5rem;
+    position: relative;
+    height: 12rem;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    flex: 1;
+    min-width: 290px;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+}
+.news-card__card-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    /*     background: rgba(255,0,0,.5); */
 }
 
 .tibidabo {
-    transform: translateY(-10px);
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    transition: transform 3s ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position: relative;
+    z-index: -1;
 }
-
-.card-thumb {}
-
-::after {
-    top: 0;
-}
-
-
-
 
 
 
