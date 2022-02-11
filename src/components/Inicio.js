@@ -4,13 +4,8 @@ import tibidabo from "./assets/tibidabo.jpeg"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button } from 'react-bootstrap';
 import logo from "./assets/logo.png"
-import { useHistory } from "react-router-dom";
 
 function Inicio(props){
-    const history = useHistory();
-    function handleClick(path) {
-        history.push(path);
-    }
     return(
         <div className="inicio-eco">
 
@@ -27,7 +22,7 @@ function Inicio(props){
                 <h1>¡ VIVE UNA EXPERIENCIA INOLVIDABLE !</h1>
             </div>
                 <div className="button">
-                    <Button variant="success"  onClick={() => handleClick("Experiencias")}>DESCÚBRELAS AQUÍ</Button>
+                    <Button variant="success">DESCÚBRELAS AQUÍ</Button>
                 </div>
 
         </div>
