@@ -5,7 +5,6 @@ import Inicio from './components/Inicio';
 import QuienesSomos from "./components/QuienesSomos";
 import Experiencias from "./components/Experiencias";
 import Formulario from "./components/Formulario";
-import QuienesSomosInfo from "./components/QuienesSomosInfo";
 
 function App() {
 
@@ -45,9 +44,9 @@ function App() {
 
     return (
         <div className="App">
+
             <Inicio/>
             <QuienesSomos/>
-            <QuienesSomosInfo/>
             <Experiencias experiencias={experiences}/>
 
 
