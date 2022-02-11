@@ -6,7 +6,7 @@ import {Link} from "react-router-dom";
 
 function QuienesSomos(props){
     return(
-        <div className="quienes-somos" id="quienessomos">
+        <div className="quienessomos" id="quienessomos">
             <p>"ECONOTRAVEL promociona y diseña experiencias y actividades en Cataluña, fomentando un turismo responsable con la economía local, sostenible con el medio ambiente y ayudando a pequeños negocios de proximidad, fundaciones, asociaciones y proyectos locales a posicionarse en el sector turístico."</p>
            <div className= "button-somos">
                 <Link  className="btn btn-success btn-lg" role="button" to="quienes-somos">Quiénes somos</Link>

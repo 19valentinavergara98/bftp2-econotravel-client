@@ -1,0 +1,14 @@
+.mision-img{
+    padding-top:300px;
+    display:flex;
+    align-content:center;
+    top:300px;
+}
+.info-parrafo{
+    font-size: 15px;
+    padding:0 40px 0;
+}
+
+.img-quienes-somos{
+    max-height: 250px;
+}
