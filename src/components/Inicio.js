@@ -4,6 +4,8 @@ import tibidabo from "./assets/tibidabo.jpeg"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button } from 'react-bootstrap';
 import logo from "./assets/logo.png"
+import { Link, animateScroll as scroll } from "react-scroll";
+
 
 function Inicio(props){
     return(
@@ -12,7 +14,9 @@ function Inicio(props){
             <div className= "nabvar">
                 <img src={logo} className="imageLogo"></img>
             <ul>
-                <li>QUIÉNES SOMOS</li>
+                <li>
+                    <Link to="quienessomos">QUIÉNES SOMOS </Link>
+                    </li>
                 <li>EXPERIENCIAS</li>
                 <li>CONTACTO</li>
             </ul>
