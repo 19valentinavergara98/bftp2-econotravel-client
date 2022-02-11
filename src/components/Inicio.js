@@ -17,7 +17,7 @@ function Inicio(props){
                 <li>
                     <Link to="quienessomos">QUIÉNES SOMOS </Link>
                     </li>
-                <li>EXPERIENCIAS</li>
+                <li><Link to="experiencias">EXPERIENCIAS</Link></li>
                 <li>CONTACTO</li>
             </ul>
             </div>
