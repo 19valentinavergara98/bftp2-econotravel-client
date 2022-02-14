@@ -1,11 +1,3 @@
-.container2 {
-    margin: 0 auto;
-    max-width: 1200px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    padding: 0.5rem;
-}
 
 .card1 {
     border: 0px solid aqua;
@@ -101,7 +93,7 @@
 .news-card__read-more {
     background: black;
     color: #bbb;
-    display: block;
+    display: flex;
     padding: 0.4rem 0.6rem;
     border-radius: 0.3rem;
     margin-top: 1rem;
