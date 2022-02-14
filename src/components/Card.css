@@ -44,7 +44,7 @@
     /*     background: rgba(255,0,0,.5); */
 }
 
-.tibidabo {
+.img-card {
     width: 100%;
     height: 100%;
     display: block;
@@ -84,7 +84,7 @@
     .card1:hover .experiences-name {
         color: yellow;
     }
-    .card1:hover .tibidabo {
+    .card1:hover .img-card {
         transform: scale(1.2);
         z-index: -1;
     }

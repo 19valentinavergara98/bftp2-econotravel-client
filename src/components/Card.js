@@ -16,9 +16,9 @@ function Card(props) {
                 <div className="container2">
                     <div className="card1">
 
-                            {props.experience.coverImage}
+                            <img className="img-card" src={props.experience.coverImage}/>
+
                             <a href="" className="news-card__card-link"></a>
-                            <img src={tibidabo} className="tibidabo" alt=""></img>
                             <div className="text-wrapper">
                                 <h2 className="experience-name">
                                     {props.experience.name}
