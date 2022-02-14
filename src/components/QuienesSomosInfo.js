@@ -34,6 +34,8 @@ function QuienesSomosInfo(props){
                     Econotravel
                 </p>
 
+
+
                 </div>
                 <div className="img-container">
                     <img src={quienessomos} className="img-quienes-somos"

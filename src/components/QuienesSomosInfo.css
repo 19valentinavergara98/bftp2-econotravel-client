@@ -5,10 +5,16 @@
     top:300px;
 }
 .info-parrafo{
-    font-size: 15px;
+    font-size: 25px;
     text-align: justify;
+    margin-left: 150px;
 }
 
+.img-container{
+    margin-left: 200px;
+    margin-right: 300px;
+    margin-top: 50px;
+}
 .img-quienes-somos{
-    max-height: 250px;
+    max-height: 350px;
 }
