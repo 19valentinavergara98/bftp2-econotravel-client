@@ -1,4 +1,5 @@
 
+
 .card1 {
     border: 0px solid aqua;
     margin: 0.5rem;
@@ -54,7 +55,7 @@
     position: relative;
     z-index: -1;
 }
-.news-card__text-wrapper {
+.text-wrapper {
     position: absolute;
     bottom: 0rem;
     padding: 1rem;
@@ -68,18 +69,16 @@
     margin-bottom: .5rem;
 }
 
-.news-card__details-wrapper {
+.details-wrapper {
+    display: flex;
     max-height: 0;
     opacity: 0;
     transition: max-height 1.5s ease, opacity 1s ease;
 }
 @media (min-width: 900px) {
-    .card1:hover .news-card__details-wrapper {
+    .card1:hover .details-wrapper {
         max-height: 20rem;
         opacity: 1;
-    }
-    .card1:hover .news-card__text-wrapper {
-        background-color: rgba(0, 0, 0, 0.6);
     }
     .card1:hover .experiences-name {
         color: yellow;
@@ -90,14 +89,14 @@
     }
 }
 
-.news-card__read-more {
-    background: black;
+.read-more {
+    background: transparent;
     color: #bbb;
-    display: flex;
+    display: block;
     padding: 0.4rem 0.6rem;
     border-radius: 0.3rem;
     margin-top: 1rem;
-    border: 1px solid #444;
+    border: 1px solid #198754;
     font-size: 0.8rem;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -108,23 +107,5 @@
     z-index: 5;
 }
 
-.news-card__read-more i {
-    position: relative;
-    left: 0.2rem;
-    color: #888;
-    transition: left 0.5s ease, color 0.6s ease;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-}
-.news-card__read-more:hover i {
-    left: 0.5rem;
-    color: yellow;
-}
 
-/*.card1 {
-    width: 300px;
-    margin: 10px;
-    background-color: white;
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
 
-}*/

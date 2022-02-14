@@ -16,24 +16,21 @@ function Card(props) {
                 <div className="container2">
                     <div className="card1">
 
-
-                        <div className="card-img">
                             {props.experience.coverImage}
-                            <a href="#" className="news-card__card-link"></a>
+                            <a href="" className="news-card__card-link"></a>
                             <img src={tibidabo} className="tibidabo" alt=""></img>
-                            <div className="news-card__text-wrapper">
+                            <div className="text-wrapper">
                                 <h2 className="experience-name">
                                     {props.experience.name}
                                 </h2>
-                                <div className="news-card__details-wrapper">
-                                    <a href="#" className="news-card__read-more">Edit
-                                        <i className="fas fa-long-arrow-alt-right"></i></a>
+                                <div className="details-wrapper">
+                                    <button className="read-more">Edit
+                                        <i className="fas fa-long-arrow-alt-right"></i></button>
 
-                                    <a href="#" className="news-card__read-more">Delete
-                                        <i className="fas fa-long-arrow-alt-right"></i></a>
+                                    <button className="read-more">Delete
+                                        <i className="fas fa-long-arrow-alt-right"></i></button>
                                 </div>
                             </div>
-                        </div>
                     </div>
                 </div>
                 <div className="parametros">
@@ -51,7 +48,7 @@ function Card(props) {
                     </p>
                 </div>
                     <div className="action-buttons">
-                        <Button variant="success">Saber más</Button>
+                        <Button>Saber más</Button>
 
                     </div>
 
