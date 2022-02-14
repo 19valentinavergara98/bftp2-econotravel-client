@@ -71,6 +71,7 @@
 
 .details-wrapper {
     display: flex;
+    margin-right: 40px;
     max-height: 0;
     opacity: 0;
     transition: max-height 1.5s ease, opacity 1s ease;

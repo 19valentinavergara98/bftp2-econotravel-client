@@ -24,11 +24,9 @@ function Card(props) {
                                     {props.experience.name}
                                 </h2>
                                 <div className="details-wrapper">
-                                    <button className="read-more">Edit
-                                        <i className="fas fa-long-arrow-alt-right"></i></button>
+                                    <button className="read-more">Edit</button>
 
-                                    <button className="read-more">Delete
-                                        <i className="fas fa-long-arrow-alt-right"></i></button>
+                                    <button className="read-more">Delete</button>
                                 </div>
                             </div>
                     </div>
@@ -48,7 +46,7 @@ function Card(props) {
                     </p>
                 </div>
                     <div className="action-buttons">
-                        <Button>Saber más</Button>
+                        <Button variant="success">Saber más</Button>
 
                     </div>
 
