@@ -3,6 +3,9 @@ import quienessomos from "./assets/quienessomos.jpg"
 import logo from "./assets/logo.png";
 import "./QuienesSomosInfo.css";
 import {Link} from "react-router-dom";
+import Footer from "./Footer";
+
+
 
 
 function QuienesSomosInfo(props){
@@ -45,6 +48,7 @@ function QuienesSomosInfo(props){
                     <p className="Marina">Marina Herrán, fundadora de Econotravel</p>
                 </div>
             </div>
+            <Footer/>
         </div>
     );
 }

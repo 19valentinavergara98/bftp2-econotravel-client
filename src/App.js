@@ -5,6 +5,7 @@ import Inicio from './components/Inicio';
 import QuienesSomos from "./components/QuienesSomos";
 import Experiencias from "./components/Experiencias";
 import Formulario from "./components/Formulario";
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -49,12 +50,11 @@ function App() {
             <QuienesSomos/>
             <Experiencias experiencias={experiences}/>
 
-
             <div class="Formulario">
 
                 <Formulario name="Javi" otraCosa="hola"/>
             </div>
-
+            <Footer/>
 
         </div>
 

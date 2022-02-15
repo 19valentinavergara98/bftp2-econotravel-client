@@ -1,0 +1,18 @@
+.footer-section{
+    background-color: #3C342F;
+    height: 300px;
+    padding-top: 50px;
+    text-align: center;
+
+    column-gap: 30px;
+
+}
+
+.info-footer{
+    color: white;
+    font-size:30px;
+}
+
+.social-logo{
+    max-width: 300px;
+}
