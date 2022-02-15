@@ -15,7 +15,9 @@ function QuienesSomosInfo(props){
                     <li>
                         <Link to="/">QUIÉNES SOMOS </Link>
                     </li>
-                    <li><Link to="/">EXPERIENCIAS</Link></li>
+                    <li>
+                        <Link to="/">EXPERIENCIAS</Link>
+                    </li>
                     <li>CONTACTO</li>
                 </ul>
             </div>

@@ -1,9 +1,9 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Button} from 'react-bootstrap';
-import tibidabo from "./assets/tibidabo.jpeg"
-
+import "./Edit";
 import "./Card.css";
+import {Link} from "react-router-dom"
 
 
 
@@ -24,9 +24,9 @@ function Card(props) {
                                     {props.experience.name}
                                 </h2>
                                 <div className="details-wrapper">
-                                    <button className="read-more">Edit</button>
+                                    <Link className="read-more" role="button" to="edit">Edit</Link>
 
-                                    <button className="read-more">Delete</button>
+                                    <button className="read-more" role="button">Delete</button>
                                 </div>
                             </div>
                     </div>

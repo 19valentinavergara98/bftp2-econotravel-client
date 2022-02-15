@@ -8,6 +8,8 @@ import QuienesSomosInfo from "./components/QuienesSomosInfo";
 import QuienesSomos from "./components/QuienesSomos";
 import Inicio from "./components/Inicio";
 import Experiencias from "./components/Experiencias";
+import Edit from "./components/Edit"
+
 
 ReactDOM.render(
   <React.StrictMode>
@@ -18,6 +20,7 @@ ReactDOM.render(
               <Route path="/" element={<QuienesSomos/>}/>
               <Route path="quienes-somos" element={<QuienesSomosInfo/>}/>
               <Route path="/" element={<Experiencias/>}/>
+              <Route path="edit" element={<Edit/>}/>
           </Routes>
 
       </BrowserRouter>
