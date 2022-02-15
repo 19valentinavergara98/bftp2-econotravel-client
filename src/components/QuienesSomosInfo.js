@@ -7,14 +7,15 @@ import Footer from "./Footer";
 
 
 
-
 function QuienesSomosInfo(props){
     return(
 
         <div className="info">
             <div className="secondary-navbar">
+                <Link to="/">
                 <img src={logo} className="imageLogo"></img>
-                <ul>
+                </Link>
+                    <ul>
                     <li>
                         <Link to="/">QUIÉNES SOMOS </Link>
                     </li>
