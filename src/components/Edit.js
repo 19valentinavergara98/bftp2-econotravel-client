@@ -1,4 +1,6 @@
 import React from 'react';
+import Footer from "./Footer";
+
 
 
 function Edit(props){
@@ -7,6 +9,7 @@ function Edit(props){
         <div className="nada2">
             <p> hola</p>
         </div>
+        <Footer/>
     </div>
 );
 }
