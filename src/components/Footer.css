@@ -4,8 +4,10 @@
     height: 320px;
     padding: 30px;
     text-align: center;
-
     column-gap: 30px;
+    width: 100%;
+    position:fixed;
+    bottom:0px;
 
 }
 
