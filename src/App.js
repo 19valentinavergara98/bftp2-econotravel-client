@@ -23,13 +23,14 @@ function App() {
         }
     }, [requiresUpdate])
 
-    const addExperience = (experienceName, experienceDescription, experiencePrice, experienceDuration, experienceTag, experienceCoverImage) => {
+    const addExperience = (experienceName, experienceResume, experienceDescription, experiencePrice, experienceDuration, experienceTag, experienceCoverImage) => {
         fetch("http://localhost:8080/api/experiences",
             {
                 method: 'POST',
                 headers: {'Content-Type': 'application/json'},
                 body: JSON.stringify({
                     name: experienceName,
+                    resume: experienceResume,
                     description: experienceDescription,
                     price: experiencePrice,
                     duration: experienceDuration,
