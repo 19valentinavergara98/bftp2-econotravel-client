@@ -9,6 +9,7 @@ import QuienesSomos from "./components/QuienesSomos";
 import Inicio from "./components/Inicio";
 import Experiencias from "./components/Experiencias";
 import Edit from "./components/Edit";
+import Reservas from "./components/Reservas";
 import Footer from "./components/Footer";
 
 
@@ -24,7 +25,8 @@ ReactDOM.render(
               <Route path="edit" element={<Edit/>}/>
               <Route path="/" element={<Experiencias/>}/>
               <Route path="edit" element={<Edit/>}/>
-              <Route path="/" element={<Footer/>}/>
+              <Route path="reservas" element={<Reservas/>}/>
+
 
           </Routes>
 

@@ -4,7 +4,7 @@ import {useEffect, useState} from "react";
 import Inicio from './components/Inicio';
 import QuienesSomos from "./components/QuienesSomos";
 import Experiencias from "./components/Experiencias";
-import Formulario from "./components/Formulario";
+import Formulario from "./components/Reservas";
 import Footer from "./components/Footer";
 
 function App() {
