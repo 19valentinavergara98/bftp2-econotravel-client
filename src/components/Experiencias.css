@@ -8,10 +8,9 @@
 }
 
 .experiences-body{
-    margin: 0 auto;
-    max-width: 400px;
-    display: flex;
-    flex-flow: row wrap;
-    padding: 0.5rem;
+    padding:100px;
+    display:grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    grid-gap: 30px 5px;
 }
 

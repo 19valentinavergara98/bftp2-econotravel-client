@@ -1,7 +1,19 @@
 
 .saber-mas{
-    margin-top:10px;
+    margin-top: 5px;
     margin-bottom:10px;
+}
+
+.resume{
+    height:90px;
+    margin-top:10px;
+    align-content: center;
+}
+
+.card-container{
+    width:400px;
+
+
 }
 
 .card1 {
