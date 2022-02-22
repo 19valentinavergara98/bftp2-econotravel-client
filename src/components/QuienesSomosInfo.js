@@ -1,8 +1,6 @@
 import React from 'react';
 import quienessomos from "./assets/quienessomos.jpg"
-import logo from "./assets/logo.png";
 import "./QuienesSomosInfo.css";
-import {Link} from "react-router-dom";
 import Footer from "./Footer";
 
 
@@ -11,20 +9,8 @@ function QuienesSomosInfo(props){
     return(
 
         <div className="info">
-            <div className="secondary-navbar">
-                <Link to="/">
-                <img src={logo} className="imageLogo"></img>
-                </Link>
-                    <ul>
-                    <li>
-                        <Link to="/">QUIÉNES SOMOS </Link>
-                    </li>
-                    <li>
-                        <Link to="/">EXPERIENCIAS</Link>
-                    </li>
-                    <li>CONTACTO</li>
-                </ul>
-            </div>
+
+
             <div className="mision-img">
                 <div className="info-parrafo">
                     <h1>Misión</h1>

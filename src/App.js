@@ -13,9 +13,8 @@ function App() {
     const [experiences, setExperiences] = useState([]);
     const [newExperience, setNewExperience] = useState("");
     const [requiresUpdate, setRequiresUpdate] = useState(true);
-
-
     useEffect(() => {
+
         if (requiresUpdate) {
             fetch("http://localhost:8080/api/experiences")
                 .then(r => r.json())
@@ -41,7 +40,9 @@ function App() {
             }
         ).then(_ => setRequiresUpdate(true))
 
+
     }
+
 
 
 
@@ -50,9 +51,9 @@ function App() {
 
             <Inicio/>
             <QuienesSomos/>
-            <Experiencias experiencias={experiences}/>
+            <Experiencias experiences={experiences}/>
 
-            <div class="Reservas">
+            <div className="Reservas">
 
                 <Reservas name="Javi" otraCosa="hola"/>
 

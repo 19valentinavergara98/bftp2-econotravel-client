@@ -7,7 +7,17 @@ import {Link} from "react-router-dom"
 
 
 function Card(props) {
-    const [show, setShow] = useState(false)
+    const [show, setShow] = useState(false);
+    const [requiresUpdate, setRequiresUpdate] = useState(true);
+    const deleteExperience = (id) => {
+        fetch(`http://localhost:8080/api/experiences/delete/${id}`,
+            {
+                method: 'DELETE',
+                mode:  'cors'
+            }
+        ).then(_ => setRequiresUpdate(true))
+
+    }
     return (
         <div className="card-container">
             <div className="card">
@@ -26,7 +36,9 @@ function Card(props) {
                             <div className="details-wrapper">
                                 <Link className="read-more" role="button" to="edit">Edit</Link>
 
-                                <button className="read-more" role="button">Delete</button>
+                                <button onClick={() => deleteExperience(props.experience.id)}
+                                        className="read-more">Delete
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -36,7 +48,7 @@ function Card(props) {
 
                 </div>
 
-                    {show?<div className="parametros">
+                {show ? <div className="parametros">
                     <p className="card-description">
                         {props.experience.description}
                     </p>
@@ -49,10 +61,10 @@ function Card(props) {
                     <p className="card-tag">
                         {props.experience.tag}
                     </p>
-                        <Link  className="btn btn-success btn-lg" role="button" to="reservar">Reservar</Link>
-                </div>:null}
+                    <Link className="btn btn-success btn-lg" role="button" to="reservar">Reservar</Link>
+                </div> : null}
                 <div className="action-buttons">
-                    <Button className="saber-mas" variant="success" onClick={() => setShow(!show)} >Saber más</Button>
+                    <Button className="saber-mas" variant="success" onClick={() => setShow(!show)}>Saber más</Button>
 
                 </div>
 
