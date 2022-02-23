@@ -37,8 +37,7 @@ function Card(props) {
                                 <Link className="read-more" role="button" to="edit">Edit</Link>
 
                                 <button onClick={() => deleteExperience(props.experience.id)}
-                                        className="read-more">Delete
-                                </button>
+                                        className="read-more">Delete</button>
                             </div>
                         </div>
                     </div>

@@ -13,6 +13,7 @@ import Reservas from "./components/Reservas";
 import Footer from "./components/Footer";
 
 
+
 ReactDOM.render(
   <React.StrictMode>
       <BrowserRouter>
