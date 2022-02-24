@@ -1,8 +1,7 @@
 import React, {useState} from 'react';
 import Card from "./Card";
 import "./Experiencias.css"
-import add from "./assets/add.png"
-import {Link} from "react-router-dom";
+
 
 
 function Experiencias(props) {
@@ -19,9 +18,9 @@ function Experiencias(props) {
             <div className="experiences-body">
                 {props.experiences.map(experience => <Card experience={experience} key={experience.id}/>)}
             </div>
-            <Link to="add-experience">
-            <img src={add} className="imageAdd" title="añadir experiencia"/>
-        </Link>
+
+
+
         </div>
     );
 }

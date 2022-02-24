@@ -8,10 +8,7 @@ left:300px;
     padding: 200px 100px 200px;
 }
 
-.imageAdd{
-    height:50px;
-    filter: hue-rotate(120deg);
-}
+
 
 .imageAdd:hover{
     background-color:white;

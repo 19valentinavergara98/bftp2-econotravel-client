@@ -1,9 +1,13 @@
 import React, {useState} from 'react';
-import Footer from "./Footer";
 import {useLocation, useNavigate} from "react-router-dom";
+import add from "./assets/add.png";
+import "./Add.css"
 
 
 function Add(props) {
+
+    const [show, setShow] = useState(false);
+
     let navigate = useNavigate();
 
     const [requiresUpdate, setRequiresUpdate] = useState(true);
@@ -24,19 +28,24 @@ function Add(props) {
     const enviarDatos = (event) => {
         event.preventDefault()
         props.addExperience(newExperience)
-            .then(() => navigate("/"))
+            .then(() => navigate("experiencias"))
     }
 
 
     return (
         <div className="add-form">
-            <div className="newExperienceForm">
+
+            <img src={add} className="imageAdd" title="añadir experiencia" onClick={() => setShow(!show)}/>
+
+            {show ?<div className="newExperienceForm">
                 <form className="edit-form" onSubmit={enviarDatos} action="">
                     <label> Titulo de la experiencia
                         <input
                             type="text"
                             name="title"
-                            onChange={handleInputChange}/>
+                            onChange={handleInputChange}
+                            value={props.experience.name}
+                        />
                     </label>
                     <label> Resumen descripción experiencia
                         <input
@@ -70,7 +79,7 @@ function Add(props) {
                     </label>
                     <button type="submit" >Add experience</button>
                 </form>
-            </div>
+            </div>: null}
 
         </div>
     );
