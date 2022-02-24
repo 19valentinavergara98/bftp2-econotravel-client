@@ -1,5 +1,6 @@
 .experiences {
 left:300px;
+    text-align:center;
 }
 .parrafo {
 
@@ -7,7 +8,17 @@ left:300px;
     padding: 200px 100px 200px;
 }
 
+.imageAdd{
+    height:50px;
+    filter: hue-rotate(120deg);
+}
+
+.imageAdd:hover{
+    background-color:white;
+}
+
 .experiences-body{
+    flex-flow:column wrap;
     padding:100px;
     display:grid;
     grid-template-columns: repeat(3, 0.3fr);

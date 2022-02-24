@@ -10,7 +10,7 @@ import Inicio from "./components/Inicio";
 import Experiencias from "./components/Experiencias";
 import Edit from "./components/Edit";
 import Reservas from "./components/Reservas";
-import Footer from "./components/Footer";
+import Add from "./components/Add";
 
 
 ReactDOM.render(
@@ -25,6 +25,7 @@ ReactDOM.render(
               <Route path="edit" element={<Edit/>}/>
               <Route path="/" element={<Experiencias/>}/>
               <Route path="edit" element={<Edit/>}/>
+              <Route path="add-experience" element={<Add/>}/>
               <Route path="reservas" element={<Reservas/>}/>
 
 

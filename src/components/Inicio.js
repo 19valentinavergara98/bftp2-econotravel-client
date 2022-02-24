@@ -12,7 +12,7 @@ function Inicio(props){
         <div className="inicio-eco">
 
             <div className= "nabvar">
-                <img src={logo} className="imageLogo"></img>
+                <img src={logo} className="imageLogo"/>
             <ul>
                 <li>
                     <Link to="quienessomos">QUIÉNES SOMOS </Link>
@@ -21,7 +21,7 @@ function Inicio(props){
                 <li>CONTACTO</li>
             </ul>
             </div>
-            <img src={tibidabo} className="imgTibidabo"></img>
+            <img src={tibidabo} className="imgTibidabo"/>
             <div className= "container">
                 <h1>¡ VIVE UNA EXPERIENCIA INOLVIDABLE !</h1>
             </div>

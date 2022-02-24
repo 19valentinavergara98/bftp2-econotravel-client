@@ -8,7 +8,7 @@ function Navbar(props){
         <div className="navbar-2">
             <div className="secondary-navbar">
                 <Link to="/">
-                    <img src={logo} className="imageLogo"></img>
+                    <img src={logo} className="imageLogo"/>
                 </Link>
                 <ul>
                     <li>
