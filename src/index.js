@@ -10,13 +10,12 @@ import Inicio from "./components/Inicio";
 import Experiencias from "./components/Experiencias";
 import Edit from "./components/Edit";
 import Reservas from "./components/Reservas";
-<<<<<<< HEAD
+
 import Footer from "./components/Footer";
 import Navbar2 from "./components/Navbar2";
-=======
 import Add from "./components/Add";
 
->>>>>>> e29fe6a98251ec36f60d22abe23586ee52aa5516
+
 
 
 ReactDOM.render(
