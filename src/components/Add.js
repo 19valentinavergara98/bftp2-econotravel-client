@@ -50,6 +50,24 @@ function Add(props) {
                             name="description"
                             onChange={handleInputChange}/>
                     </label>
+                    <label> Precio de la experiencia
+                        <input
+                            type="text"
+                            name="price"
+                            onChange={handleInputChange}/>
+                    </label>
+                    <label> Duración de la experiencia
+                        <input
+                            type="text"
+                            name="duration"
+                            onChange={handleInputChange}/>
+                    </label>
+                    <label> Etiquetas
+                        <input
+                            type="text"
+                            name="tag"
+                            onChange={handleInputChange}/>
+                    </label>
                     <button type="submit" >Add experience</button>
                 </form>
             </div>
