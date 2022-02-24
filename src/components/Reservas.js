@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {useNavigate} from "react-router-dom";
-import backgreserve from '../../assets/backgreserve.png';
-import "./reservas.css"
+
+import "./Reservas.css"
 
 export const Reservas = (props) => {
     let navigate = useNavigate();
@@ -30,7 +30,7 @@ export const Reservas = (props) => {
 
 
     return (
-        <div className='section-form' style={{ backgroundImage: `url(${backgreserve})` }}>
+        <div className='section-form' >
             <section className="form-section">
                 <div className="form-wrapper">
 
@@ -116,3 +116,4 @@ export const Reservas = (props) => {
         </div>
     );
 }
+export default Reservas;
