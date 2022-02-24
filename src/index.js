@@ -13,7 +13,6 @@ import Reservas from "./components/Reservas";
 
 
 
-
 ReactDOM.render(
   <React.StrictMode>
       <BrowserRouter>
@@ -27,6 +26,10 @@ ReactDOM.render(
               <Route path="/" element={<Experiencias/>}/>
               <Route path="edit" element={<Edit/>}/>
               <Route path="reservas" element={<Reservas/>}/>
+
+
+
+
 
 
           </Routes>

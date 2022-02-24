@@ -1,7 +1,30 @@
-.nav{
-    margin-top: 40px;
-    padding: 24px;
+.nav2{
+    top:0px;
+    height: 100px;
+    padding: 30px;
     text-align: center;
-    font-family: Raleway;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    background: #3fa46a;
+}
+.link-3 {
+    transition: 0.3s ease;
+    background: #3fa46a;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    border-top: 4px solid #3fa46a;
+    border-bottom: 4px solid #3fa46a;
+    padding: 20px 0;
+    margin: 0 50px;
+}
+.link-3:hover {
+    border-top: 4px solid #ffffff;
+    border-bottom: 4px solid #ffffff;
+    padding: 6px 0;
+}
+.img-nav2{
+    position: absolute;
+    max-width: 180px;
+    left: 30px;
+    top: -40px;
 }
