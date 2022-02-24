@@ -33,7 +33,7 @@ function QuienesSomosInfo(){
                 </div>
                 <div className="img-container">
                     <img src={quienessomos} className="img-quienes-somos"
-                         alt="Marina Herrán, fundadora de Econotravel"></img>
+                         alt="Marina Herrán, fundadora de Econotravel"/>
                     <p className="Marina">Marina Herrán, fundadora de Econotravel</p>
                 </div>
             </div>

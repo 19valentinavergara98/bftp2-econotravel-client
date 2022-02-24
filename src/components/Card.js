@@ -27,7 +27,7 @@ function Card(props) {
 
                         <img className="img-card" src={props.experience.coverImage}/>
 
-                        <a href="" className="news-card__card-link"></a>
+                        <a href="" className="news-card__card-link"/>
                         <div className="text-wrapper">
                             <h2 className="experience-name">
                                 {props.experience.name}

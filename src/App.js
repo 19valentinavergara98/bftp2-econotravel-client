@@ -7,6 +7,9 @@ import Experiencias from "./components/Experiencias";
 import Formulario from "./components/Reservas";
 import Footer from "./components/Footer";
 import Reservas from "./components/Reservas";
+import Add from "./components/Add";
+
+
 
 function App() {
 
@@ -52,7 +55,7 @@ function App() {
             <Inicio/>
             <QuienesSomos/>
             <Experiencias experiences={experiences}/>
-
+            <Add addExperience={addExperience}/>
             <div className="Reservas">
 
                 <Reservas name="Javi" otraCosa="hola"/>
