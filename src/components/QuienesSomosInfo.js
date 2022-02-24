@@ -2,16 +2,18 @@ import React from 'react';
 import quienessomos from "./assets/quienessomos.jpg"
 import "./QuienesSomosInfo.css";
 import Footer from "./Footer";
+import Navbar2 from "./Navbar2";
 
 
 
-function QuienesSomosInfo(props){
+function QuienesSomosInfo(){
     return(
 
         <div className="info">
-
+            <Navbar2/>
 
             <div className="mision-img">
+
                 <div className="info-parrafo">
                     <h1>Misión</h1>
                     <p>
