@@ -55,7 +55,7 @@ function App() {
 
             <Inicio/>
             <QuienesSomos/>
-            <Experiencias experiences={experiences}/>
+            <Experiencias experiences={experiences} onDeleteExperience={deleteExperience}/>
 
             <Form addExperience={addExperience}/>
 

@@ -5,7 +5,7 @@ import "./Experiencias.css"
 
 
 function Experiencias(props) {
-    const [requiresUpdate, setRequiresUpdate] = useState(true);
+
     return (
         <div className="experiences" id="experiencias">
             <div className="parrafo">
@@ -16,7 +16,9 @@ function Experiencias(props) {
             </div>
 
             <div className="experiences-body">
-                {props.experiences.map(experience => <Card experience={experience} key={experience.id} />)  }
+                {props.experiences.map(experience => <Card experience={experience}
+                                                           key={experience.id}
+                                                           onDeleteExperience={props.onDeleteExperience} />)  }
             </div>
 
 

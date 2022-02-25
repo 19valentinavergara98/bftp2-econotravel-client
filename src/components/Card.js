@@ -7,6 +7,7 @@ import {Link} from "react-router-dom"
 
 
 function Card(props) {
+
     const [show, setShow] = useState(false);
     const [requiresUpdate, setRequiresUpdate] = useState(true);
     const deleteExperience = (id) => {
@@ -35,9 +36,9 @@ function Card(props) {
                             </h2>
 
                             <div className="details-wrapper">
-                                <Link className="read-more" role="button" to="edit" state={{data:props.editExperience}}>Edit</Link>
+                                <Link className="read-more" role="button" to="edit" >Edit</Link>
 
-                                <button onClick={() => deleteExperience(props.experience.id)}
+                                <button onClick={() => props.onDeleteExperience(props.experience.id)}
                                         className="read-more">Delete</button>
                             </div>
                         </div>
