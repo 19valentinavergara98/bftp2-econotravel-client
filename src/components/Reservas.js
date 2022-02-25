@@ -9,8 +9,7 @@ export const Reservas = (props) => {
     const [reserveData, setReserveData] = useState({
         nombre: '',
         telefono: '',
-        adultos: null,
-        ninos: null,
+        numerodepersonas: null,
         email: '',
         experiencia: '',
         comentarios: ''
@@ -34,7 +33,7 @@ export const Reservas = (props) => {
             <section className="form-section">
                 <div className="form-wrapper">
 
-                    <h1>Reservar Experiencia</h1>
+                    <h1>Reservas</h1>
                     <div className="form-container">
                         <form className="edit-form" onSubmit={enviarDatosDeReserva} action="">
 
@@ -57,21 +56,12 @@ export const Reservas = (props) => {
                             </div>
 
                             <div className="form-group">
-                                <label htmlFor="">Adultos</label>
+                                <label htmlFor="">Número de personas</label>
                                 <input type="number"
                                        className="form-control"
                                        onChange={handleInputChange}
-                                       name="adultos"
+                                       name="numeroDePersonas"
                                        value={reserveData.adultos}/>
-                            </div>
-
-                            <div className="form-group">
-                                <label htmlFor="">Niños</label>
-                                <input type="number"
-                                       className="form-control"
-                                       onChange={handleInputChange}
-                                       name="ninos"
-                                       value={reserveData.ninos}/>
                             </div>
 
                             <div className="form-group">
