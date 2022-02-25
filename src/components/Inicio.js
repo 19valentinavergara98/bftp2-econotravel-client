@@ -18,7 +18,7 @@ function Inicio(props){
                     <Link to="quienessomos">QUIÉNES SOMOS </Link>
                     </li>
                 <li><Link to="experiencias">EXPERIENCIAS</Link></li>
-                <li>CONTACTO</li>
+                <li><Link to="reservas">RESERVAS</Link></li>
             </ul>
             </div>
             <img src={tibidabo} className="imgTibidabo"/>
