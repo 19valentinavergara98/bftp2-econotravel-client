@@ -8,19 +8,9 @@ import QuienesSomosInfo from "./components/QuienesSomosInfo";
 import QuienesSomos from "./components/QuienesSomos";
 import Inicio from "./components/Inicio";
 import Experiencias from "./components/Experiencias";
-<<<<<<< HEAD
-
-
-=======
->>>>>>> a3b46dafe6d42585d9b796a6c8579280bea5283d
 import Form from "./components/Form";
 import Edit from "./components/Edit";
-<<<<<<< HEAD
-
-
-=======
 import Reservas from "./components/Reservas";
->>>>>>> a3b46dafe6d42585d9b796a6c8579280bea5283d
 ReactDOM.render(
   <React.StrictMode>
       <BrowserRouter>
@@ -29,14 +19,8 @@ ReactDOM.render(
               <Route path="/" element={<Inicio/>}/>
               <Route path="/" element={<QuienesSomos/>}/>
               <Route path="quienes-somos" element={<QuienesSomosInfo/>}/>
-<<<<<<< HEAD
-
-   <Route path="/" element={<Experiencias/>}/>D
               <Route path="edit" element={<Form/>}/>
-=======
->>>>>>> a3b46dafe6d42585d9b796a6c8579280bea5283d
               <Route path="/" element={<Experiencias/>}/>
-              <Route path="edit" element={<Form/>}/>
               <Route path="edit" element={<Edit/>}/>
               <Route path="/" element={<Reservas/>}/>
           </Routes>
