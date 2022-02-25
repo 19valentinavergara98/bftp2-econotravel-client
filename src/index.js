@@ -23,16 +23,7 @@ ReactDOM.render(
               <Route path="/" element={<Experiencias/>}/>
               <Route path="edit" element={<Edit/>}/>
               <Route path="/" element={<Reservas/>}/>
-
-
-
-
-
-
-
-
           </Routes>
-
       </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
