@@ -17,6 +17,7 @@ function Card(props) {
             }
         ).then(_ => setRequiresUpdate(true))
 
+
     }
     return (
         <div className="card-container">
@@ -34,7 +35,7 @@ function Card(props) {
                             </h2>
 
                             <div className="details-wrapper">
-                                <Link className="read-more" role="button" to="edit">Edit</Link>
+                                <Link className="read-more" role="button" to="edit" state={{data:props.editExperience}}>Edit</Link>
 
                                 <button onClick={() => deleteExperience(props.experience.id)}
                                         className="read-more">Delete</button>

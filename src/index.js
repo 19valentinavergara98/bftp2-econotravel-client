@@ -8,7 +8,8 @@ import QuienesSomosInfo from "./components/QuienesSomosInfo";
 import QuienesSomos from "./components/QuienesSomos";
 import Inicio from "./components/Inicio";
 import Experiencias from "./components/Experiencias";
-import Edit from "./components/Edit";
+
+import Form from "./components/Form";
 
 
 ReactDOM.render(
@@ -20,8 +21,7 @@ ReactDOM.render(
               <Route path="/" element={<QuienesSomos/>}/>
               <Route path="quienes-somos" element={<QuienesSomosInfo/>}/>
               <Route path="/" element={<Experiencias/>}/>D
-              <Route path="edit" element={<Edit/>}/>
-              <Route path="edit" element={<Edit/>}/>
+              <Route path="edit" element={<Form/>}/>
 
 
 

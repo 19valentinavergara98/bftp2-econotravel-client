@@ -4,10 +4,10 @@ import {useEffect, useState} from "react";
 import Inicio from './components/Inicio';
 import QuienesSomos from "./components/QuienesSomos";
 import Experiencias from "./components/Experiencias";
-import Formulario from "./components/Reservas";
 import Footer from "./components/Footer";
 import Reservas from "./components/Reservas";
-import Add from "./components/Add";
+import Form from "./components/Form";
+
 
 
 
@@ -36,6 +36,8 @@ function App() {
         ).then(_ => setRequiresUpdate(true))
 
     }
+
+
     const deleteExperience = (id) => {
         fetch(`http://localhost:8080/api/experiences/delete/${id}`,
             {
@@ -54,7 +56,8 @@ function App() {
             <Inicio/>
             <QuienesSomos/>
             <Experiencias experiences={experiences}/>
-            <Add addExperience={addExperience}/>
+
+            <Form addExperience={addExperience}/>
             <div className="Reservas">
 
                 <Reservas name="Javi" otraCosa="hola"/>
