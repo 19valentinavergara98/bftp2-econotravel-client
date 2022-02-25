@@ -6,13 +6,6 @@
     width: 100%;
     background: #3fa46a;
 }
-ul{
-    position: absolute;
-    display: flex;
-    gap: 100px;
-    top: 120px;
-    left: 300px;
-}
 
 .link-3 {
     transition: 0.3s ease;
