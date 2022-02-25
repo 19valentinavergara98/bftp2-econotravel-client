@@ -37,8 +37,6 @@ function Card(props) {
                             </h2>
 
                             <div className="details-wrapper">
-                                <Link className="read-more" role="button" to="edit" >Edit</Link>
-
                                 <button onClick={() => props.onDeleteExperience(props.experience.id)}
                                         className="read-more">Delete</button>
                             </div>
