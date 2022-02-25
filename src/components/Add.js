@@ -42,7 +42,7 @@ function Add(props) {
                 <form className="edit-form" onSubmit={enviarDatos} action="">
                     <label> Inserta imagen de la experiencia
                         <input
-                            type=""
+                            type="url"
                             name="coverImage"
                             onChange={handleInputChange}
                         />
@@ -51,7 +51,7 @@ function Add(props) {
                         <input
                             className="experience-form"
                             type="text"
-                            name="title"
+                            name="name"
                             onChange={handleInputChange}
 
                         />
