@@ -58,11 +58,11 @@ function App() {
             <Experiencias experiences={experiences}/>
 
             <Form addExperience={addExperience}/>
-            <div className="Reservas">
 
-                <Reservas name="Javi" otraCosa="hola"/>
 
-            </div>
+                <Reservas />
+
+
             <Footer/>
 
         </div>
