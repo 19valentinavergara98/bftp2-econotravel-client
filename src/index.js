@@ -11,6 +11,9 @@ import Experiencias from "./components/Experiencias";
 import Reservas from "./components/Reservas";
 import Form from "./components/Form";
 import Edit from "./components/Edit";
+import Form from "./components/Form";
+import Edit from "./components/Edit";
+import Reservas from "./components/Reservas";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -20,23 +23,17 @@ ReactDOM.render(
               <Route path="/" element={<Inicio/>}/>
               <Route path="/" element={<QuienesSomos/>}/>
               <Route path="quienes-somos" element={<QuienesSomosInfo/>}/>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 
-   <Route path="/" element={<Experiencias/>}/>D
+
+   <Route path="/" element={<Experiencias/>}/>
+
               <Route path="edit" element={<Form/>}/>
-=======
->>>>>>> a3b46dafe6d42585d9b796a6c8579280bea5283d
               <Route path="/" element={<Experiencias/>}/>
->>>>>>> a9b9d873d5470e7450cf8c9be2cb94f918e1b7ca
               <Route path="edit" element={<Form/>}/>
               <Route path="edit" element={<Edit/>}/>
               <Route path="/" element={<Reservas/>}/>
-<<<<<<< HEAD
 
-=======
->>>>>>> a9b9d873d5470e7450cf8c9be2cb94f918e1b7ca
+
           </Routes>
       </BrowserRouter>
   </React.StrictMode>,
