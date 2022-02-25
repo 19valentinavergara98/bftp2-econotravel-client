@@ -84,8 +84,7 @@
 }
 
 .details-wrapper {
-    display: flex;
-    margin-right: 40px;
+    margin-right: 120px;
     max-height: 0;
     opacity: 0;
     transition: max-height 1.5s ease, opacity 1s ease;
@@ -105,14 +104,14 @@
 }
 
 .read-more {
-    background: transparent;
+    background: #198754;
     color: #bbb;
     display: block;
     padding: 0.4rem 0.6rem;
     border-radius: 0.3rem;
     margin-top: 1rem;
     border: 1px solid #198754;
-    font-size: 0.8rem;
+    font-size: 15px;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     text-decoration: none;
@@ -120,6 +119,9 @@
     margin-left: auto;
     position: relative;
     z-index: 5;
+    font-weight: bold;
+    opacity: 80%;
+
 }
 
 
