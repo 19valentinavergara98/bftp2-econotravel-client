@@ -26,26 +26,25 @@ function App() {
         }
     }, [requiresUpdate])
 
-    const addExperience = (experienceName, experienceResume, experienceDescription, experiencePrice, experienceDuration, experienceTag, experienceCoverImage) => {
-        fetch("http://localhost:8080/api/experiences",
+    const addExperience = (experience) => {
+        return fetch("http://localhost:8080/api/experiences",
             {
                 method: 'POST',
                 headers: {'Content-Type': 'application/json'},
-                body: JSON.stringify({
-                    name: experienceName,
-                    resume: experienceResume,
-                    description: experienceDescription,
-                    price: experiencePrice,
-                    duration: experienceDuration,
-                    tag: experienceTag,
-                    coverImage: experienceCoverImage
-                })
+                body: JSON.stringify(experience)
             }
         ).then(_ => setRequiresUpdate(true))
 
+    }
+    const deleteExperience = (id) => {
+        fetch(`http://localhost:8080/api/experiences/delete/${id}`,
+            {
+                method: 'DELETE',
+                mode:  'cors'
+            }
+        ).then(_ => setRequiresUpdate(true))
 
     }
-
 
 
 

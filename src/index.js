@@ -9,17 +9,13 @@ import QuienesSomos from "./components/QuienesSomos";
 import Inicio from "./components/Inicio";
 import Experiencias from "./components/Experiencias";
 import Edit from "./components/Edit";
-import Reservas from "./components/Reservas";
-<<<<<<< HEAD
-
-=======
-
-import Footer from "./components/Footer";
-import Navbar2 from "./components/Navbar2";
-import Add from "./components/Add";
 
 
->>>>>>> 779ff43d56cffea75f25ff98cd1a6d7a1a7e6c58
+
+
+
+
+
 
 
 ReactDOM.render(
@@ -32,9 +28,8 @@ ReactDOM.render(
               <Route path="quienes-somos" element={<QuienesSomosInfo/>}/>
               <Route path="/" element={<Experiencias/>}/>D
               <Route path="edit" element={<Edit/>}/>
-              <Route path="/" element={<Experiencias/>}/>
               <Route path="edit" element={<Edit/>}/>
-              <Route path="reservas" element={<Reservas/>}/>
+
 
 
 

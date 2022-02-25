@@ -28,7 +28,7 @@ function Add(props) {
     const enviarDatos = (event) => {
         event.preventDefault()
         props.addExperience(newExperience)
-            .then(() => navigate("experiencias"))
+            .then(() => navigate("/"))
     }
 
 
@@ -37,48 +37,63 @@ function Add(props) {
 
             <img src={add} className="imageAdd" title="añadir experiencia" onClick={() => setShow(!show)}/>
 
-            {show ?<div className="newExperienceForm">
+            {show?<div className="add">
+                <div className="newExperienceForm">
                 <form className="edit-form" onSubmit={enviarDatos} action="">
+                    <label> Inserta imagen de la experiencia
+                        <input
+                            type=""
+                            name="coverImage"
+                            onChange={handleInputChange}
+                        />
+                    </label>
                     <label> Titulo de la experiencia
                         <input
+                            className="experience-form"
                             type="text"
                             name="title"
                             onChange={handleInputChange}
-                            value={props.experience.name}
+
                         />
                     </label>
                     <label> Resumen descripción experiencia
                         <input
+                            className="experience-form"
                             type="text"
                             name="resume"
                             onChange={handleInputChange}/>
                     </label>
                     <label> Descripción experiencia
                         <input
+                            className="experience-form"
                             type="text"
                             name="description"
                             onChange={handleInputChange}/>
                     </label>
                     <label> Precio de la experiencia
                         <input
+                            className="experience-form"
                             type="text"
                             name="price"
                             onChange={handleInputChange}/>
                     </label>
                     <label> Duración de la experiencia
                         <input
+                            className="experience-form"
                             type="text"
                             name="duration"
                             onChange={handleInputChange}/>
                     </label>
                     <label> Etiquetas
                         <input
+                            className="experience-form"
                             type="text"
                             name="tag"
                             onChange={handleInputChange}/>
                     </label>
-                    <button type="submit" >Add experience</button>
+                    <button type="submit" >Añadir experiencia</button>
                 </form>
+                </div>
             </div>: null}
 
         </div>
