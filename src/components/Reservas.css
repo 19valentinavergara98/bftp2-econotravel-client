@@ -4,6 +4,7 @@
 
 .form-wrapper {
     margin-bottom: 50px;
+    width: 80%;
 }
 .section-form{
     display: flex;
@@ -16,7 +17,6 @@
 }
 
 .form-section {
-    width: 55%;
     background-color: lightgrey;
     padding: 20px 20px 2px 20px;
     border-radius: 10px;
