@@ -16,9 +16,13 @@ function Card(props) {
                 mode:  'cors'
             }
         ).then(_ => setRequiresUpdate(true))
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 177cce95aca10e5298f4b3143f42d343017ec617
     }
+
     return (
         <div className="card-container">
             <div className="card">
@@ -45,7 +49,6 @@ function Card(props) {
                 </div>
                 <div className="resume">
                     {props.experience.resume}
-
                 </div>
 
                 {show ? <div className="parametros">
