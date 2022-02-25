@@ -8,9 +8,11 @@
 }
 
 .newExperienceForm{
-    border:1px solid black;
-   height:700px;
-    width:500px;
+    border: 0px solid aqua;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+   height:800px;
+    width:600px;
 
 }
 

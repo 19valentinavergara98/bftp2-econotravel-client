@@ -4,7 +4,7 @@ import "./QuienesSomos.css"
 import {Link} from "react-router-dom";
 
 
-function QuienesSomos(props){
+function QuienesSomos(){
     return(
         <div className="quienessomos" id="quienessomos">
             <p>"ECONOTRAVEL promociona y diseña experiencias y actividades en Cataluña, fomentando un turismo responsable con la economía local, sostenible con el medio ambiente y ayudando a pequeños negocios de proximidad, fundaciones, asociaciones y proyectos locales a posicionarse en el sector turístico."</p>

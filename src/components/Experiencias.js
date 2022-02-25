@@ -16,7 +16,7 @@ function Experiencias(props) {
             </div>
 
             <div className="experiences-body">
-                {props.experiences.map(experience => <Card experience={experience} key={experience.id}/>)}
+                {props.experiences.map(experience => <Card experience={experience} key={experience.id} />)  }
             </div>
 
 

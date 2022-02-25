@@ -16,6 +16,11 @@ function Card(props) {
                 mode:  'cors'
             }
         ).then(_ => setRequiresUpdate(true))
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> 177cce95aca10e5298f4b3143f42d343017ec617
     }
 
     return (
@@ -34,7 +39,7 @@ function Card(props) {
                             </h2>
 
                             <div className="details-wrapper">
-                                <Link className="read-more" role="button" to="edit">Edit</Link>
+                                <Link className="read-more" role="button" to="edit" state={{data:props.editExperience}}>Edit</Link>
 
                                 <button onClick={() => deleteExperience(props.experience.id)}
                                         className="read-more">Delete</button>
