@@ -9,6 +9,7 @@ import {Link} from "react-router-dom"
 function Card(props) {
 
     const [show, setShow] = useState(false);
+
     const [requiresUpdate, setRequiresUpdate] = useState(true);
     const deleteExperience = (id) => {
         fetch(`http://localhost:8080/api/experiences/delete/${id}`,

@@ -8,9 +8,10 @@ import QuienesSomosInfo from "./components/QuienesSomosInfo";
 import QuienesSomos from "./components/QuienesSomos";
 import Inicio from "./components/Inicio";
 import Experiencias from "./components/Experiencias";
+import Reservas from "./components/Reservas";
 import Form from "./components/Form";
 import Edit from "./components/Edit";
-import Reservas from "./components/Reservas";
+
 ReactDOM.render(
   <React.StrictMode>
       <BrowserRouter>
