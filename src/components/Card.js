@@ -7,9 +7,6 @@ import {Link} from "react-router-dom"
 
 
 function Card(props) {
-    const [show, setShow] = useState(false);
-
-
 
     return (
         <div className="card-container">
