@@ -11,7 +11,6 @@ import Experiencias from "./components/Experiencias";
 import Reservas from "./components/Reservas";
 import Form from "./components/Form";
 import Edit from "./components/Edit";
-import Form from "./components/Form";
 import Edit from "./components/Edit";
 import Reservas from "./components/Reservas";
 
