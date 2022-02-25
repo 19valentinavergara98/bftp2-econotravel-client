@@ -8,6 +8,16 @@ import QuienesSomosInfo from "./components/QuienesSomosInfo";
 import QuienesSomos from "./components/QuienesSomos";
 import Inicio from "./components/Inicio";
 import Experiencias from "./components/Experiencias";
+<<<<<<< HEAD
+=======
+
+
+import Form from "./components/Form";
+
+import Edit from "./components/Edit";
+
+
+>>>>>>> b5d98e7f437db157bc2855c1d1076ab11f2b6893
 
 ReactDOM.render(
   <React.StrictMode>
@@ -17,6 +27,11 @@ ReactDOM.render(
               <Route path="/" element={<Inicio/>}/>
               <Route path="/" element={<QuienesSomos/>}/>
               <Route path="quienes-somos" element={<QuienesSomosInfo/>}/>
+<<<<<<< HEAD
+=======
+              <Route path="/" element={<Experiencias/>}/>D
+              <Route path="edit" element={<Form/>}/>
+>>>>>>> b5d98e7f437db157bc2855c1d1076ab11f2b6893
               <Route path="/" element={<Experiencias/>}/>
 
           </Routes>
