@@ -8,6 +8,18 @@ import {Link} from "react-router-dom"
 
 function Card(props) {
 
+    const [show, setShow] = useState(false);
+    const [requiresUpdate, setRequiresUpdate] = useState(true);
+    const deleteExperience = (id) => {
+        fetch(`http://localhost:8080/api/experiences/delete/${id}`,
+            {
+                method: 'DELETE',
+                mode:  'cors'
+            }
+        ).then(_ => setRequiresUpdate(true))
+
+    }
+
     return (
         <div className="card-container">
             <div className="card">
