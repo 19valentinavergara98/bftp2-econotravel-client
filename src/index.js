@@ -20,12 +20,9 @@ ReactDOM.render(
               <Route path="/" element={<QuienesSomos/>}/>
               <Route path="quienes-somos" element={<QuienesSomosInfo/>}/>
               <Route path="/" element={<Experiencias/>}/>
-
               <Route path="edit" element={<Form/>}/>
-              <Route path="/" element={<Experiencias/>}/>
               <Route path="edit" element={<Edit/>}/>
               <Route path="/" element={<Reservas/>}/>
-              <Route path="/" element={<Experiencias/>}/>
           </Routes>
       </BrowserRouter>
   </React.StrictMode>,
