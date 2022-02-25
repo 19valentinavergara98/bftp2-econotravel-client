@@ -8,6 +8,7 @@ import {Link} from "react-router-dom"
 
 function Card(props) {
     const [show, setShow] = useState(false);
+<<<<<<< HEAD
     const [requiresUpdate, setRequiresUpdate] = useState(true);
     const deleteExperience = (id) => {
         fetch(`http://localhost:8080/api/experiences/delete/${id}`,
@@ -18,6 +19,10 @@ function Card(props) {
         ).then(_ => setRequiresUpdate(true))
 
     }
+=======
+
+
+>>>>>>> 3238aef800e3deb69f36c82b4a1bc06443a5b49a
 
     return (
         <div className="card-container">
@@ -35,9 +40,9 @@ function Card(props) {
                             </h2>
 
                             <div className="details-wrapper">
-                                <Link className="read-more" role="button" to="edit" state={{data:props.editExperience}}>Edit</Link>
+                                <Link className="read-more" role="button" to="edit" >Edit</Link>
 
-                                <button onClick={() => deleteExperience(props.experience.id)}
+                                <button onClick={() => props.onDeleteExperience(props.experience.id)}
                                         className="read-more">Delete</button>
                             </div>
                         </div>

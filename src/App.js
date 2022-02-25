@@ -55,14 +55,14 @@ function App() {
 
             <Inicio/>
             <QuienesSomos/>
-            <Experiencias experiences={experiences}/>
+            <Experiencias experiences={experiences} onDeleteExperience={deleteExperience}/>
 
             <Form addExperience={addExperience}/>
-            <div className="Reservas">
 
-                <Reservas name="Javi" otraCosa="hola"/>
 
-            </div>
+                <Reservas />
+
+
             <Footer/>
 
         </div>
