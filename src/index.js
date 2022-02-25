@@ -9,6 +9,7 @@ import QuienesSomos from "./components/QuienesSomos";
 import Inicio from "./components/Inicio";
 import Experiencias from "./components/Experiencias";
 import Edit from "./components/Edit";
+<<<<<<< HEAD
 
 
 
@@ -18,6 +19,13 @@ import Edit from "./components/Edit";
 
 
 
+=======
+import Reservas from "./components/Reservas";
+import Footer from "./components/Footer";
+import Navbar2 from "./components/Navbar2";
+import Add from "./components/Add";
+
+>>>>>>> 6644f3216f6156d9c73d0f5c13f0d4a95cfdc585
 ReactDOM.render(
   <React.StrictMode>
       <BrowserRouter>
