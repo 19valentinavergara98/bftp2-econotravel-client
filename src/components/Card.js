@@ -7,6 +7,7 @@ import {Link} from "react-router-dom"
 
 
 function Card(props) {
+
     const [show, setShow] = useState(false);
 
     const [requiresUpdate, setRequiresUpdate] = useState(true);
@@ -19,7 +20,6 @@ function Card(props) {
         ).then(_ => setRequiresUpdate(true))
 
     }
-
 
     return (
         <div className="card-container">

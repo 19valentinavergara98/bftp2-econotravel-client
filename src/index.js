@@ -8,9 +8,9 @@ import QuienesSomosInfo from "./components/QuienesSomosInfo";
 import QuienesSomos from "./components/QuienesSomos";
 import Inicio from "./components/Inicio";
 import Experiencias from "./components/Experiencias";
+import Reservas from "./components/Reservas";
 import Form from "./components/Form";
 import Edit from "./components/Edit";
-import Reservas from "./components/Reservas";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -20,13 +20,10 @@ ReactDOM.render(
               <Route path="/" element={<Inicio/>}/>
               <Route path="/" element={<QuienesSomos/>}/>
               <Route path="quienes-somos" element={<QuienesSomosInfo/>}/>
-              <Route path="/" element={<Experiencias/>}/>
               <Route path="edit" element={<Form/>}/>
               <Route path="/" element={<Experiencias/>}/>
               <Route path="edit" element={<Edit/>}/>
               <Route path="/" element={<Reservas/>}/>
-
-              <Route path="/" element={<Experiencias/>}/>
 
           </Routes>
       </BrowserRouter>
