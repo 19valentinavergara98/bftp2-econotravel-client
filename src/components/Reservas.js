@@ -29,7 +29,7 @@ export const Reservas = (props) => {
 
 
     return (
-        <div className='section-form' >
+        <div className='section-form' id="reservas">
             <section className="form-section">
                 <div className="form-wrapper">
 
